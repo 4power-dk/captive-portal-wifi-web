@@ -1,15 +1,16 @@
 body {
   font: 1.0em Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: #000000;
 }
 
 #header {
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.87);
+  color: #FFFFFF;
   height: auto;
   font-size: 2em;
   text-align: center;
   width: 100%;
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 1px solid rgba(221, 221, 221, 0.15);
   padding: 0px 0px 3px;
 }
 
@@ -29,24 +30,24 @@ body {
 }
 
 #info {
-  color: rgb(33, 133, 208);
-  box-shadow: rgba(34, 36, 38, 0.22) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
-  background: rgb(223, 240, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-  border: 1px none rgb(33, 133, 208);
+  color: rgb(222, 122, 47);
+  box-shadow: rgba(220, 220, 220, 0.22) 0px 0px 0px 1px inset, rgba(255, 255, 255, 0) 0px 0px 0px 0px;
+  background: #000000 none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 1px none rgb(222, 122, 47);
 }
 
 #error {
-  color: rgb(212, 22, 22);
-  box-shadow: rgba(34, 36, 38, 0.22) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
-  background: rgb(255, 223, 231) none repeat scroll 0% 0% / auto padding-box border-box;
-  border: 1px none rgb(212, 22, 22);
+  color: #8b0000;
+  box-shadow: rgba(220, 220, 220, 0.22) 0px 0px 0px 1px inset, rgba(255, 255, 255, 0) 0px 0px 0px 0px;
+  background: #000000 none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 1px none rgb(43, 222, 222);
 }
 
 #userlabel,
 #netlabel,
 #passlabel {
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.87);
+  color: #FFFFFF;
   display: block;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -54,8 +55,9 @@ body {
 
 #networks {
   bottom: 0px;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
-  color: rgba(0, 0, 0, 0.87);
+  box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px 0px inset;
+  background-color: #000000;
+  color: #FFFFFF;
   cursor: pointer;
   display: block;
   height: 4em;
@@ -66,7 +68,7 @@ body {
   text-align: left;
   top: 0px;
   width: 100%;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: 1px solid #8b0000;
   border-radius: 5px 5px 5px 5px;
   font-size: 1.0em;
 }
@@ -79,11 +81,11 @@ body {
 
 #puser,
 #password {
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px 0px inset;
   cursor: auto;
   vertical-align: top;
   width: 100%;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: 1px solid rgba(220, 220, 220, 0.15);
   border-radius: 4px 4px 4px 4px;
   padding: 8px 8px;
   font-size: 1em;
@@ -99,14 +101,14 @@ body {
   cursor: pointer;
   font: normal normal 700 normal 14px / 14px Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
   border-radius: 4px 4px 4px 4px;
-  height: 4em;  
+  height: 4em;
 }
 
 #rescan, #check {
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 1px inset, rgba(34, 36, 38, 0.15) 0px 0px 0px 0px inset;
-  color: rgba(0, 0, 0, 0.6);
-  background: rgb(224, 225, 226) none repeat scroll 0% 0% / auto padding-box border-box;
-  border: 0px none rgba(0, 0, 0, 0.6);
+  box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px 1px inset, rgba(220, 220, 220, 0.15) 0px 0px 0px 0px inset;
+  color: #FFFFFF;
+  background: rgb(22, 22, 22) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgba(255, 255, 255, 0.6);
   margin-top: 0.8em;
 }
 
@@ -116,18 +118,19 @@ body {
 }
 
 #save {
-  box-shadow: rgba(34, 36, 38, 0.15) 0px 0px 0px 0px inset;
-  color: rgb(255, 255, 255);
+  box-shadow: rgba(220, 220, 220, 0.15) 0px 0px 0px 0px inset;
+  color: #FFFFFF;
   height: 5em;
-  background: rgb(33, 133, 208) none repeat scroll 0% 0% / auto padding-box border-box;
-  border: 0px none rgb(255, 255, 255);
+  background: #000000 none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 1px solid #8b0000;
   margin-top: 0.8em;
 }
 
 pre {
-  outline: 1px solid #ccc;
+
   padding: 5px;
   margin: 5px;
+  color: #8b0000;
 }
 
 .string {
