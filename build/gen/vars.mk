@@ -1,0 +1,37 @@
+APP=captive-portal-wifi-web
+APP_BIN_LIBS=
+APP_CFLAGS=-DEBUF_LWIP=1 -DJSON_MAX_PATH_LEN=128 -DLFS_NO_DEBUG=1 -DLWIP_DNS_NO_CLIENT=1 -DLWIP_OPEN_SRC=1 -DLWIP_RAND=os_random -DMBEDTLS_FREE_CERT_CHAIN=1 -DMBEDTLS_USER_CONFIG_FILE=\"mbedtls_platform_config.h\" -DMBEDTLS_X509_CA_CHAIN_ON_DISK=1 -DMEMP_NUM_TCP_PCB=20 -DMGOS=1 -DMGOS_DEFAULT_NAMESERVER=\"8.8.8.8\" -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_ESP8266_WIFI_ENABLE_WPAENT=0 -DMGOS_HAVE_CAPTIVE_PORTAL_WIFI_RPC=1 -DMGOS_HAVE_CAPTIVE_PORTAL_WIFI_SETUP=1 -DMGOS_HAVE_CORE=1 -DMGOS_HAVE_LWIP=1 -DMGOS_HAVE_MBEDTLS=1 -DMGOS_HAVE_MONGOOSE=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_VFS_COMMON=1 -DMGOS_HAVE_VFS_DEV_PART=1 -DMGOS_HAVE_VFS_FS_LFS=1 -DMGOS_HAVE_VFS_FS_SPIFFS=1 -DMGOS_HAVE_WIFI=1 -DMGOS_LFS1_COMPAT=0 -DMGOS_ROOT_FS_OPTS_LFS={"bs":4096,"is":128} -DMGOS_ROOT_FS_OPTS_SPIFFS={"bs":4096,"ps":256,"es":4096} -DMGOS_WIFI_ENABLE_AP_STA=1 -DMG_DISABLE_HTTP_KEEP_ALIVE=1 -DMG_ENABLE_DNS=1 -DMG_ENABLE_DNS_SERVER=1 -DMG_ENABLE_HTTP_SSI=0 -DMG_ENABLE_HTTP_STREAMING_MULTIPART=1 -DMG_ENABLE_MQTT=1 -DMG_ENABLE_SNTP=1 -DMG_ENABLE_SSL=1 -DMG_ENABLE_TUN=0 -DMG_EXT_MD5=1 -DMG_EXT_SHA1=1 -DMG_EXT_SHA256=1 -DMG_LOG_DNS_FAILURES=1 -DMG_LWIP=1 -DMG_MAX_DNS_ANSWERS=16 -DMG_MAX_DNS_QUESTIONS=16 -DMG_MAX_HTTP_REQUEST_SIZE=3072 -DMG_MAX_HTTP_SEND_MBUF=1460 -DMG_MAX_PATH=256 -DMG_SSL_IF=MG_SSL_IF_MBEDTLS -DMG_SSL_IF_MBEDTLS_FREE_CERTS=1 -DPBUF_RSV_FOR_WLAN=1 -DTCP_MSL=5000 -DTCP_MSS=1460 -DTCP_WND=2920
+APP_CONF_SCHEMA=/data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/build/gen/mos_conf_schema.yml
+APP_CXXFLAGS=-DEBUF_LWIP=1 -DJSON_MAX_PATH_LEN=128 -DLFS_NO_DEBUG=1 -DLWIP_DNS_NO_CLIENT=1 -DLWIP_OPEN_SRC=1 -DLWIP_RAND=os_random -DMBEDTLS_FREE_CERT_CHAIN=1 -DMBEDTLS_USER_CONFIG_FILE=\"mbedtls_platform_config.h\" -DMBEDTLS_X509_CA_CHAIN_ON_DISK=1 -DMEMP_NUM_TCP_PCB=20 -DMGOS=1 -DMGOS_DEFAULT_NAMESERVER=\"8.8.8.8\" -DMGOS_ENABLE_RPC_CHANNEL_HTTP=1 -DMGOS_ENABLE_SYS_SERVICE=1 -DMGOS_ESP8266_WIFI_ENABLE_WPAENT=0 -DMGOS_HAVE_CAPTIVE_PORTAL_WIFI_RPC=1 -DMGOS_HAVE_CAPTIVE_PORTAL_WIFI_SETUP=1 -DMGOS_HAVE_CORE=1 -DMGOS_HAVE_LWIP=1 -DMGOS_HAVE_MBEDTLS=1 -DMGOS_HAVE_MONGOOSE=1 -DMGOS_HAVE_RPC_COMMON=1 -DMGOS_HAVE_VFS_COMMON=1 -DMGOS_HAVE_VFS_DEV_PART=1 -DMGOS_HAVE_VFS_FS_LFS=1 -DMGOS_HAVE_VFS_FS_SPIFFS=1 -DMGOS_HAVE_WIFI=1 -DMGOS_LFS1_COMPAT=0 -DMGOS_ROOT_FS_OPTS_LFS={"bs":4096,"is":128} -DMGOS_ROOT_FS_OPTS_SPIFFS={"bs":4096,"ps":256,"es":4096} -DMGOS_WIFI_ENABLE_AP_STA=1 -DMG_DISABLE_HTTP_KEEP_ALIVE=1 -DMG_ENABLE_DNS=1 -DMG_ENABLE_DNS_SERVER=1 -DMG_ENABLE_HTTP_SSI=0 -DMG_ENABLE_HTTP_STREAMING_MULTIPART=1 -DMG_ENABLE_MQTT=1 -DMG_ENABLE_SNTP=1 -DMG_ENABLE_SSL=1 -DMG_ENABLE_TUN=0 -DMG_EXT_MD5=1 -DMG_EXT_SHA1=1 -DMG_EXT_SHA256=1 -DMG_LOG_DNS_FAILURES=1 -DMG_LWIP=1 -DMG_MAX_DNS_ANSWERS=16 -DMG_MAX_DNS_QUESTIONS=16 -DMG_MAX_HTTP_REQUEST_SIZE=3072 -DMG_MAX_HTTP_SEND_MBUF=1460 -DMG_MAX_PATH=256 -DMG_SSL_IF=MG_SSL_IF_MBEDTLS -DMG_SSL_IF_MBEDTLS_FREE_CERTS=1 -DPBUF_RSV_FOR_WLAN=1 -DTCP_MSL=5000 -DTCP_MSS=1460 -DTCP_WND=2920
+APP_FS_FILES=
+APP_INCLUDES=/data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/lwip/src/esp8266/sdk_lwip/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/wifi/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/wifi/include/esp8266 /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/captive-portal-wifi-setup/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/mbedtls/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/mbedtls/include/esp8266 /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/modules/mbedtls/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/vfs-common/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/vfs-common/include/esp8266 /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/mongoose/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/rpc-common/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/captive-portal-wifi-rpc/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/vfs-dev-part/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/vfs-fs-lfs/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/vfs-fs-lfs/littlefs /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/vfs-fs-lfs/littlefs1 /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/vfs-fs-spiffs/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/vfs-fs-spiffs/include/spiffs /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/vfs-fs-spiffs/include/esp8266 /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/core/include /data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/deps/core/include/esp8266
+APP_SOURCES=
+APP_VERSION=1.0.1
+BOARD=
+BUILD_DIR=/data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/build/objs
+FFI_SYMBOLS=
+FS_STAGING_DIR=/data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/build/fs
+FW_DIR=/data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/build/fw
+GEN_DIR=/data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/build/gen
+MANIFEST_FINAL=/data/fwbuild-volumes/2.20.0/apps/captive-portal-wifi-web/esp8266/build_contexts/build_ctx_389433447/build/gen/mos_final.yml
+MGOS=1
+MGOS_ESP8266_LWIP=1_SDK
+MGOS_HAVE_CAPTIVE_PORTAL_WIFI_RPC=1
+MGOS_HAVE_CAPTIVE_PORTAL_WIFI_SETUP=1
+MGOS_HAVE_CORE=1
+MGOS_HAVE_LWIP=1
+MGOS_HAVE_MBEDTLS=1
+MGOS_HAVE_MONGOOSE=1
+MGOS_HAVE_RPC_COMMON=1
+MGOS_HAVE_VFS_COMMON=1
+MGOS_HAVE_VFS_DEV_PART=1
+MGOS_HAVE_VFS_FS_LFS=1
+MGOS_HAVE_VFS_FS_SPIFFS=1
+MGOS_HAVE_WIFI=1
+MGOS_MBEDTLS_ENABLE_ATCA=0
+MGOS_MG_NET_IF=MG_NET_IF_LWIP_LOW_LEVEL
+MGOS_PATH=/mongoose-os
+MGOS_ROOT_FS_OPTS_LFS={"bs":4096,"is":128}
+MGOS_ROOT_FS_OPTS_SPIFFS={"bs":4096,"ps":256,"es":4096}
+MGOS_WIFI_ENABLE_AP_STA=0
+PLATFORM=esp8266
